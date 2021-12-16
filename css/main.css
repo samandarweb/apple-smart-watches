@@ -110,19 +110,24 @@ body {
 /* main  */
 /* freedom section */
 .freedom-section {
-  background: url("../img/watches.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: 800px;
   padding: 180px 0;
   border-bottom: 1px solid #ccc;
 }
 .freedom-container {
+  position: relative;
   display: flex;
+  align-items: center;
   padding-top: 80px;
+  
 }
 .freedom-content {
   width: 500px;
+}
+.freedom-image{
+    width: 650px;
+    position: absolute;
+    left: 900px;
+   
 }
 
 /* repo section */
@@ -174,6 +179,7 @@ body {
 .red-line {
   display: inline-block;
   width: 60px;
+  background:#ea625c ;
   border: 2px solid #ea625c;
   margin-right: 10px;
   transition: 0.5s;
