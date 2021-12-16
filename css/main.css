@@ -179,7 +179,6 @@ body {
 .red-line {
   display: inline-block;
   width: 60px;
-  background:#ea625c ;
   border: 2px solid #ea625c;
   margin-right: 10px;
   transition: 0.5s;
