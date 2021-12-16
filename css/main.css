@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #222;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.main-title {
+    width: 450px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.main-discription {
+  width: 450px;
+  color: #777777;
+  border-left: 1px solid #9e9d9d;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 30px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.main-button {
+  color: #ffffff;
+  background-color: #ea625c;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.main-button:hover {
+  opacity: 0.8;
+}
+.main-button:active {
+  opacity: 0.6;
+}
+
+/* header section */
+.header {
+  padding: 20px 0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
+.site-logo-image {
+  width: 35px;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav-link {
+  color: #333333;
+  font-size: 15px;
+  line-height: 22px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: 0.2s;
+}
+.nav-link:hover {
+  color: #222;
+  border-bottom: 1.5px solid #222;
+}
+.navbar-form {
+  border-bottom: 1px solid #222;
+  width: 160px;
+  margin-left: 10px;
+  padding-bottom: 5px;
+}
+.input {
+  background: none;
+  outline: none;
+  border: none;
+  color: #222;
+  font-size: 15px;
+}
+/* main  */
+/* freedom section */
+.freedom-section {
+  background: url("../img/watches.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 800px;
+  padding: 180px 0;
+  border-bottom: 1px solid #ccc;
+}
+.freedom-container {
+  display: flex;
+  padding-top: 80px;
+}
+.freedom-content {
+  width: 500px;
+}
+
+/* repo section */
+.repo-section {
+  padding-top: 50px;
+}
+.repo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.repo-item {
+  width: 30%;
+}
+.repo-title {
+  color: #222222;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.repo-discription {
+  color: #333333;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: justify;
+}
+
+.repo-span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #dddddd;
+}
+.repo-span:not(:last-child) {
+  margin-right: 10px;
+}
+.repo-button {
+  color: #ea625c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.red-line {
+  display: inline-block;
+  width: 60px;
+  border: 2px solid #ea625c;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+.repo-button:hover .red-line {
+  width: 70px;
+}
+/* band section */
+.band {
+    padding: 180px 0 70px 0;
+}
+.band-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.band-image {
+    width: 400px;
+    height: 600px;
+}
+/* footer section */
+.site-footer {
+    background: url('../img/runners.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 240px 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.footer-title {
+    color: #ffffff;
+}
+.footer-discription {
+    color: #ffffff;
+}
